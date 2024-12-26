@@ -10,6 +10,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/PrasadNayak2000/ms-config-server
+          url: https://github.com/PrasadNayak2000/ms-config-server
   application:
     name: config-server
+
+server:
+  port: 8888
+
+brahmi: bac
