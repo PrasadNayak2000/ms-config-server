@@ -4,3 +4,12 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/PrasadNayak2000/ms-config-server
+  application:
+    name: config-server
